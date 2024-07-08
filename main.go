@@ -110,5 +110,5 @@ func main() {
 	router.PUT("/students/:id", UpdateStudent)
 	router.DELETE("/students/:id", DeleteStudent)
 
-	router.Run(":8080")
+	router.Run(":8000")
 }
